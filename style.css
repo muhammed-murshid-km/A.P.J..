@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+}
+body{
+  font-family: 'Kanit', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+}
+
+.head {
+  background-color: #e5e5fd;
+  min-height: 100vh;
+  border: 100px solid #1d1e4c;
+}
+
+.head1 {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.head2{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.head2 h1 {
+  font-size: 50px;
+  font-weight:normal;
+  color: #1d1e4c;
+  text-transform:uppercase;
+}
+.head2 h4 {
+  font-size: 30px;
+  text-align:end;
+  font-weight: normal;
+}
+.head3 {
+  border-radius: 50%;
+  overflow: hidden;
+}
+.head3 img{
+  width: 300px;
+  height: 320px;
+}
+.head4{
+  margin-top: 50px;
+}
+.head4 h2 {
+  font-size: 70px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.head4 p {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  text-align: justify;
+}
+.head5 {
+  margin: 50px 0;
+}
+.head5 h3 {
+  margin-bottom: 20px;
+}
+.head5 ul {
+  margin-left: 50px;
+}
+.head5 li {
+  margin-bottom: 15px;
+}
+
+.head6 {
+  margin: 50px 0;
+}
+.head6 p {
+  text-align: end;
+}
+
+
+/*mobile */
+
+@media screen and (max-width:450px){
+   .head{
+    border: 2px solid ;
+   }
+   .head1{
+    margin-top: -50px;
+   }
+   .head2 h1{
+    font-size: 18px;
+   }
+   .head2 h4{
+    font-size: 15px;
+   }
+   .head3 img{
+    width: 150px;
+    height: 150px;
+   }
+   .head4 h2{
+    font-size:30px;
+   }
+   .head4 p{
+    font-size: 15px;
+   }
+   .head5 h3{
+    font-size: 15px;
+    margin-left: 10px;
+   }
+   .head5 li{
+    font-size: 10px;
+   }
+   .head6 p{
+     font-size: 10px;
+   }
+}
+@media screen and (orientation:landscape) and (max-width:992px){
+   .head{
+    border: 2px solid ;
+   }
+   .head1{
+    margin-top: -50px;
+    max-width: 600px;
+   }
+   .head2 h1{
+    font-size: 25px;
+   }
+   .head2 h4{
+    font-size: 15px;
+   }
+   .head3 img{
+    width: 150px;
+    height: 150px;
+   }
+   .head4 h2{
+    font-size:40px;
+   }
+   .head4 p{
+    font-size: 15px;
+   }
+   .head5 h3{
+    font-size: 15px;
+    margin-left: 10px;
+   }
+   .head5 li{
+    font-size: 10px;
+   }
+   .head6 p{
+    font-size: 10px;
+  }
+}
