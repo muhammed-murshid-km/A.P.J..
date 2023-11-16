@@ -85,7 +85,7 @@ font-family: 'Rubik', sans-serif;
 
 @media screen and (max-width:450px) {
   .head {
-    border: 5px solid;
+    border: 10px solid;
   }
 
   .head1 {
@@ -93,7 +93,7 @@ font-family: 'Rubik', sans-serif;
     margin-left: 10px;
   }
   .head2 h1 {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .head2 h4 {
@@ -112,7 +112,7 @@ font-family: 'Rubik', sans-serif;
 
   .head4 p {
     font-size: 15px;
-    width: 330px;
+    width: 320px;
   }
 
   .head5 h3 {
@@ -133,7 +133,7 @@ font-family: 'Rubik', sans-serif;
 
 @media screen and (orientation:landscape) and (max-width:992px) {
   .head {
-    border: 5px solid;
+    border: 10px solid;
   }
 
   .head1 {
